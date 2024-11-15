@@ -1,0 +1,39 @@
+.bg_gradient {
+  background: linear-gradient(
+    to right,
+    rgba(54, 97, 255, 0.5),
+    rgba(255, 233, 234, 0) 40%
+  );
+  color: rgba(0, 56, 107, 1);
+}
+
+.streetLight_border {
+  /* border: rgba(54, 97, 255, 1) 1px solid; */
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  background: repeating-linear-gradient(
+    to right,
+    transparent,
+    transparent 4px,
+    black 4px,
+    black 6px
+  );
+}
+
+.streetLight_dotted_border {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  background: repeating-linear-gradient(
+    to right,
+    transparent,
+    transparent 4px,
+    black 4px,
+    black 6px
+  );
+}
+
+.ellipse {
+  clip-path: ellipse(25% 40% at 50% 50%);
+}
