@@ -44,9 +44,15 @@ function Hero() {
 
           {!onMobile ? (
             <div className="flex items-center text-xs font-light justify-around w-[60%] md:w-[50%]">
-              <div>Home</div>
-              <div>Product</div>
-              <div>Software Service</div>
+              <div>
+                <a href="#">Home</a>
+              </div>
+              <div>
+                <a href="#">Products</a>
+              </div>
+              <div>
+                <a href="#">Software Service</a>
+              </div>
               <LoginBtn />
             </div>
           ) : (
@@ -69,11 +75,11 @@ function Hero() {
 
         <div className="flex flex-col justify-center items-center pl-[10%] pr-[10%] md:pl-[20%] md:pr-[20%] mt-16">
           <div>
-            <h6 className="text-white font-light tracking-widest">
+            <h6 className="font-light tracking-widest text-white">
               Smart Light Solution
             </h6>
           </div>
-          <div className="text-white/60 mt-3">
+          <div className="mt-3 text-white/60">
             <h1 className="text-2xl font-[300] text-center leading-[35px] tracking-wider md:text-4xl md:leading-[50px]">
               Bringing A New Perspective To Street Lights And The Cities Of
               Tomorrow.
